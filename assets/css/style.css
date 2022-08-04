@@ -895,6 +895,13 @@ input {
     border-radius: 3rem;
 }
 
+.testimonial__profile-data{
+    display: flex;
+    flex-direction: column;
+    row-gap: .4rem;
+    
+}
+
 .testimonial__profile-name {
     font-size: var(--h3-font-size);
     font-weight: var(--font-medium);
@@ -903,10 +910,18 @@ input {
 
 .testimonial__profile-detail {
     font-size: var(--small-font-size);
-    
+
 }
 
 /*Swiper Class*/
+.swiper-pagination-bullet {
+    background-color: var(--box-color);
+
+}
+
+.swiper-pagination-bullet-active{
+    background-color: var(--skin-color);
+}
 /*Contact Section */
 /*FOOTER*/
 /*Scroll UP */
